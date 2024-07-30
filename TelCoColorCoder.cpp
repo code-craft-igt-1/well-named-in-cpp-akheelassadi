@@ -41,10 +41,9 @@ namespace TelCoColorCoder {
     }
 
     void PrintReferenceManual() {
-        for (int pairNumber = 1; pairNumber <= numberOfMajorColors * numberOfMinorColors; ++i) {
+        for (int pairNumber = 1; pairNumber <= numberOfMajorColors * numberOfMinorColors; ++pairNumber) {
             ColorPair colorPair = GetColorFromPairNumber(pairNumber);
             std::cout << pairNumber << ": " << colorPair.ToString() << std::endl;
         }
     }
-
-i
+}
